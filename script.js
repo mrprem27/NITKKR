@@ -1,6 +1,6 @@
 //loader
 function loader() {
-  var a = setTimeout(myFunction, 1000)
+  var a = setTimeout(myFunction,000)
   function myFunction() {
     document.querySelector(".loader").style.display = "none";
   }
