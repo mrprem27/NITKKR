@@ -5,9 +5,9 @@ function loader() {
     document.querySelector(".loader").style.display = "none";
   }
 }
-// setTimeout(function () {
-//   alert("Left side there is a tube hover on it so you can switch On the Night mode\nPlease make Sure You are Connected with Internet");
-// }, 2000)
+setTimeout(function () {
+    alert("This will take some time To load\nPlease make sure you have a decent Internet COnnection\nLeft side there is a tube hover on it so you can switch On the Night mode")
+ }, 2000)
 //date
 setInterval(time, 1000);
 function time() {
