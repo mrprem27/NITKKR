@@ -181,7 +181,7 @@ butt.forEach((butt) => {
 {
   var x = 0;
   var d = new Date();
-  if(d.getHours()<6||d.getHours()>20)
+  if(d.getHours()<=6||d.getHours()>=20)
   nightc();
   document.querySelector('.night').addEventListener("click", nightc)
 
