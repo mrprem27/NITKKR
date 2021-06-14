@@ -1118,6 +1118,24 @@ address {
     transform: rotate(360deg);
   }
 }
+
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  25% {
+    height: 0%;
+  }
+  50% {
+    height: 100%;
+  }
+  75% {
+    height: 100%;
+  }
+  100% {
+    height: 0%;
+  }
+}
 /*media query*/
 @media only screen and (min-width:1500px) {
   .program-1 .img div {
@@ -1131,89 +1149,5 @@ address {
 .program-3 .img div {
   position: absolute;
   bottom: 12.3vw;
-}
-}
-@media only screen and (max-width:800px) {
-  .program-1 .img div {
-  position: absolute;
-  bottom: 12.7vw;
-}
-.program-2 .img div {
-  position: absolute;
-  bottom: 12.7vw;
-}
-.program-3 .img div {
-  position: absolute;
-  bottom: 12.7vw;
-}
-}
-@media only screen and (max-width:500px) {
-  .program-1 .img div {
-  position: absolute;
-  bottom:12.8vw;
-}
-.program-2 .img div {
-  position: absolute;
-  bottom:12.8vw;
-}
-.program-3 .img div {
-  position: absolute;
-  bottom: 12.8vw;
-}
-}
-@media only screen and (max-width:431px) {
-  .program-1 .img div {
-  position: absolute;
-  bottom:13vw;
-}
-.program-2 .img div {
-  position: absolute;
-  bottom:13vw;
-}
-.program-3 .img div {
-  position: absolute;
-  bottom: 13vw;
-}
-}
-@media only screen and (max-width:350px) {
-  .program-1 .img div {
-  position: absolute;
-  bottom:13.4vw;
-}
-.program-2 .img div {
-  position: absolute;
-  bottom:13.4vw;
-}
-.program-3 .img div {
-  position: absolute;
-  bottom: 13.4vw;
-}
-}
-@media only screen and (max-width:307px) {
-  .program-1 .img div {
-  position: absolute;
-  bottom:13.8vw;
-}
-.program-2 .img div {
-  position: absolute;
-  bottom:13.8vw;
-}
-.program-3 .img div {
-  position: absolute;
-  bottom: 13.8vw;
-}
-}
-@media only screen and (max-width:231px) {
-  .program-1 .img div {
-  position: absolute;
-  bottom: 14.3vw;
-}
-.program-2 .img div {
-  position: absolute;
-  bottom:14.3vw;
-}
-.program-3 .img div {
-  position: absolute;
-  bottom: 14.3vw;
 }
 }
