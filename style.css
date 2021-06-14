@@ -364,7 +364,7 @@ li {
   top: 39vw;
   display: flex;
   text-align: center;
-  font-size:1.54vw;
+  font-size:1.4vw;
   justify-content: space-around;
 }
 .icons img {
@@ -399,7 +399,7 @@ li {
 .icons div:hover a span {
   background-color: rgb(30, 98, 119);
   color: rgb(255, 255, 255);
-  font-size: 1.4vw;
+  font-size: 1.3vw;
   padding: 0.5vw;
 }
 .imp-news {
