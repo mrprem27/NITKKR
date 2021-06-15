@@ -1,0 +1,267 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-shadow:1px 1px 2px black;
+    font-family:'Bree Serif', serif;
+}
+.top{
+    background: url("Restaurant-Instagram-Photography.png") no-repeat center/cover;
+    background-attachment: fixed;
+}
+#logo img{
+    clip-path: circle();
+    width:4em;
+    margin:11px 20px;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+/* CSS VARIABLES */
+:root{
+    --navbar-height:59px;
+}
+/* nav bar */
+#navbar::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity:0.4;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+    position:sticky;
+    top:0px;
+}
+#navbar ul{
+    display:flex;
+    font-family:'Bree Serif', serif;
+}
+#navbar ul li{
+    list-style: none;
+    font-size:1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display:block;
+    padding:3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color:white;
+}
+.h-secondary:hover{
+    color: white;
+    background-color:black;
+    font-weight:100;
+}
+/*Home section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    height:500px;
+    justify-content: center;
+    align-items: center;
+
+}
+#home h1{
+color: white;
+text-align: center;
+font-family:'Bree Serif', serif;
+}
+#home p{
+    color: white;
+    text-align:center;
+    font-family:'Bree Serif', serif;
+    font-size:1.7rem;
+}
+/* Service section */
+#services{
+    display: flex;
+    background:url("Action-Food-Photography-Tips_0.jpg" ) no-repeat center/cover;
+    justify-content:space-around;
+}
+#services .box{
+    border:2px solid white;
+    padding:30px;
+    border-radius:28px;
+    background-image: linear-gradient(to top right, rgba(22, 21, 21, 0.822), rgba(236, 236, 234, 0.658));
+}
+#services .box img{
+    height:200px;
+    border-radius:5px;
+    box-shadow:0px 1px 5px black;
+    margin-bottom:15px;
+}
+#services .box:nth-child(1){
+    margin:4vh 6vw;
+    margin-left:20vw;
+}
+#services .box:nth-child(2){
+    margin:3vh 0px;
+}
+#services .box:nth-child(3){
+    margin:4vh 6vw;
+    margin-right:20vw;
+}
+
+
+
+
+
+
+
+
+
+/* utility classes */
+#services p{
+    color:white;
+    font-size:1.1rem;
+    margin: auto;
+    display: block;
+    padding-inline-start:2vw;
+    text-shadow:1px 1px 1px black;
+}
+.h-primary{
+    font-size:3rem;
+    padding:12px;
+}
+.h-secondary{
+    font-size:1.9rem;
+    text-shadow:1px -1px 2px rgba(255, 255, 255, 0.548);
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    padding:0.5vh 0vw;
+    text-decoration:underline  black;
+}
+.services-container h1{
+    margin-top:20px;
+    text-align: center;
+    text-decoration:overline 3px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background: rgba(255, 255, 255, 0.253);
+    border-radius:9px;
+    color: white;
+    margin: 17px;
+    cursor: pointer;
+    font-size:1.5rem;
+}
+.btn:hover{
+    color: black;
+    background:white;
+}
+@media screen and (max-width:1314px)
+{
+    *{
+        font-size:1.3rem;
+    }
+    #services{
+        display: block;
+        padding:2px;
+    }
+    #services .box:nth-child(1), #services .box:nth-child(2), #services .box:nth-child(3){
+        margin:10vh 10vw;
+    }
+    #services .box img{
+        display: block;
+       margin: auto;
+       margin-bottom:20px;
+    }
+}
+header,body{
+    padding: 0px;
+    margin:0px;
+    background-color: rgba(128, 128, 128, 0.075);
+}
+header h1{
+    margin: 0px;
+    padding:45px;
+    font-size:60px;
+    text-align: center;
+    color: white;
+    text-decoration:8px underline;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow:3px 3px saddlebrown;
+    background-color: rgb(228, 103, 20);
+}
+.first{
+    display: flex;
+    justify-content: center;
+}
+div h3{
+    font-size:25px;
+    margin:5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(236, 148, 15);
+    text-shadow: 1px 1px 1px black;
+}
+#client-section p{
+    font-size:15px;
+    margin:15px;
+}
+#p1,#p3{
+    display:unset;
+    align-self:flex-start;
+}
+.first div{
+    margin:20px;
+    border: 1px solid black;
+    box-shadow:0px 0px 15px black;
+    width:350px;
+}
+#client-section div a:hover{
+    background-color: rgb(133, 62, 15);
+    color:rgb(241, 240, 240)
+}
+#client-section div a{
+    background-color:rgb(228, 103, 20);
+    text-decoration: none;
+    padding:15px;
+    font-size:17px;
+    border:2px outset rgb(51, 49, 49);
+    border-radius:5px;
+    display:flex;
+    justify-content: center;
+    margin:15px;
+    color: white;
+}
+#client-section img{
+    margin:0px;
+    width:351px;
+}
+@media screen and (max-width:1580px) {
+    .first{
+        display:flex;
+    flex-wrap: wrap;
+        justify-content: center;
+}
+}
+@media screen and (max-width:1042px)
+{
+    #navbar ul{
+        display: block;
+    }
+    #navbar{
+        display: block;
+    }
+    #logo{
+        display: flex;
+        justify-content: center;
+    }
+    #navbar a{
+        text-align: center;
+    }
+    #services p{
+        margin: auto;
+        padding-inline-start:5vw;
+    }
+}
