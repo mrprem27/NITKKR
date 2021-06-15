@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <form action="" class="container">
+    <h1  style="text-decoration:underline grey;">Payment Form</h1>
+    <hr>
+    <span style="line-height: 1px;">Required fields are followed by *
+    <h2>User Information</h2></span>
+    <p>Name*: <input type="text" placeholder="Full Name" name="name" required> </p>
+    <fieldset>
+        <legend>Gender*</legend>
+    Male <input type="radio" name="gender" id="male" required> Female <input type="radio" name="gender" id="female" required>
+</fieldset>
+
+    <p>Address: <textarea placeholder="Address" name="address" id="address" cols="85" rows="9"></textarea></p>
+    <p>Email*: <input type="email" placeholder="Email" name="email" id="email" required></p>
+    <p>Pincode*: <input placeholder="Pincode" min=100000 max=999999 type="number" name="pincode" id="pincode" required></p>
+    <h2>Payment Information</h2>
+    <p>Card Type*:
+        <select name="card_type" id="card_type" required>
+            <option value="">--Select a card type--</option>
+            <option value="visa">Visa</option>
+            <option value="rupay">Rupay</ption>
+            <option value="mastercard">MasterCard</option>
+        </select>
+    </p>
+        <p>Card Number*: 
+            <input placeholder="Card Number" min=100000000000 max=999999999999 type="number" name="card_number" id="card_number" required>
+    </p>
+    <p>Expiry Date* <input type="date" name="expdate" id="expdate" required></p>
+    <p>CVV* <input type="password" placeholder="CVV" name="cvv" id="cvv" required></p>
+    &nbsp&nbsp<input type="submit" onclick="check()" value="Pay Now">&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp<input type="reset" value="Reset">
+    </form>
+    <hr>
+    <br>
+</body>
+</html>
