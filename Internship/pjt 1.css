@@ -1,0 +1,112 @@
+.head
+{
+    font-family:Verdana, sans-serif;
+    text-decoration:overline;
+    font-size:4.7vw;
+    font-weight:550;
+    text-shadow:.3vw .2vw  .2vw rgb(0, 0, 0);
+    color:rgb(60, 162, 221);
+}
+nav a{
+    color:grey;
+    text-shadow: 2px 2px 5px fffff;
+    font-size:1.5vw;
+    padding:1.6vw;
+    text-decoration:unset;
+    float:none;
+}
+a[href="#12"],a[href="#1"]{
+    border:2px solid rgb(36, 91, 107);
+    padding:.5vw;
+    margin:.5vw;
+    margin-top:2vw;
+    position:absolute;
+    right: 0;
+    text-shadow:2px 2px 3px black;
+    background-color:rgb(60, 162, 221);
+    color:white;
+    border-radius:6px;
+}
+a[href="#12"]{
+    right: 6vw;
+}
+a:hover{
+    color:black;
+}
+a[href="#0"]:hover
+{
+    color:black;
+}
+input[type="submit"]:hover{
+    color: rgba(248, 248, 248, 0.856);
+    text-shadow: 3px 0px 3px black;
+    background-color:rgb(60, 60, 190);
+    border:2px solid black;
+}
+form{
+    margin:0px ;
+    background-color:rgba(204, 204, 204, 0.13);
+}
+#info{
+    background-image:url("1.jfif");
+    text-align:center;
+    background-size:110vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    font-weight:600;
+    padding:13vw;
+    font-size:6vw;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px black;
+    margin:0px;
+    border-radius:.4vw;
+}
+input,textarea,select{
+    width:100%;
+    font-size:2.1vw;
+    border-radius:.3vw;
+    border:2px solid rgb(172, 167, 167);
+}
+form{
+    padding:.2vw 0px 0px 0px;
+}
+#form p{
+    padding:1.2vw 0px 1.2vw 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:2.5vw;
+}
+input[type="submit"]
+{
+    padding:1vw;
+    color:white;
+    background-color:rgb(61, 61, 230);
+    border-radius:.3vw;
+}
+footer{
+    background-image:url("2.jpg");
+    background-blend-mode: lighten ;
+    border-radius:.3vw;
+    background-size:70vw;
+    background-position: center;
+    margin-top:.5vw;
+    color:white;
+    text-shadow:2px 2px 3px black;
+    font-size:1.8vw;
+}
+footer table{
+    padding:3vw 0;
+}
+footer nav
+{
+background-color:rgb(60, 162, 221);
+width: 100%;
+height:3vw;
+}
+footer a{
+    background-color:rgb(60, 162, 221);
+padding:1vw;
+padding:1vw 7.4vw;
+color: white;
+font-size:1.5vw;
+}
