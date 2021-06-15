@@ -982,7 +982,8 @@ div.container {
 .contact-us-box h3 {
   font-size: 2vw;
   background: rgb(30, 98, 119);
-  width: fit-content;margin-left:34vw;
+  width:23vw;
+  margin-left:34vw;
   color: white;
   padding:.5vw 1vw;
   border-radius: 0.5vw;
