@@ -5,9 +5,7 @@ function loader() {
     document.querySelector(".loader").style.display = "none";
   }
 }
-setTimeout(function () {
-  alert("This will take some time To load\nPlease make sure you have a decent Internet Connection\nLeft side of the page there is a blue stick hover on it and click on the sun icon to switch to Night mode")
-}, 2000)
+  alert("This will take some time To load\nPlease make sure you have a decent Internet Connection\nLeft side of the page there is a blue stick hover on it and click on the sun icon to switch to Night mode");
 //date
 setInterval(time, 1000);
 function time() {
